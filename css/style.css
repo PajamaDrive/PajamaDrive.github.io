@@ -230,7 +230,9 @@ ul, li {
 
 #works .card {
   width: 32%;
+  height: 50%;
 }
+
 
 #works .card {
   margin-bottom: 50px;
@@ -251,7 +253,7 @@ ul, li {
 }
 
 #works .card-caption-url {
-  font-size: 10px;
+  font-size: 12px;
 }
 
 #works .card-wrapper {
