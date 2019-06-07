@@ -233,7 +233,7 @@ ul, li {
 }
 
 #works .card-static-image {
-  height: 100px;
+  display: inline;
 }
 
 #works .card {
