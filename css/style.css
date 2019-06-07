@@ -233,6 +233,7 @@ ul, li {
 }
 
 #works .card img {
+  max-height: 100%
   object-fit: cover;
 }
 
