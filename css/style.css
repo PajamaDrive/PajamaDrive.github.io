@@ -242,9 +242,12 @@ ul, li {
 }
 
 #works .card-caption-title {
+  vertical-align: top;
+}
+
+#works .card-caption-title {
   font-size: 13px;
   font-weight: bold;
-  vertical-align: text-top;
 }
 
 #works .card-caption-info {
