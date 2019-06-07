@@ -33,10 +33,10 @@ a:hover, a:hover img {
 
 img, video, object {
   max-width: 100%;
+  height: 200px;
   border: none;
   vertical-align: bottom;
   display: block;
-  object-fit: cover;
 }
 
 ul, li {
