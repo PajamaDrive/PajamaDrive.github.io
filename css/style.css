@@ -233,7 +233,7 @@ ul, li {
 }
 
 #works .card img {
-  height: 300px;
+  object-fit: cover;
 }
 
 #works .card {
