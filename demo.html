@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <meta property='og:type' content='website'>
+  <meta property='og:title' content='Shogo Matsushita Portfolio'>
+  <meta property='og:url' content='URL入る'>
+  <meta property='og:description' content='Shogo Matsushita&#39;s portfolio'>
+  <meta property="og:image" content="img/ogp.png">
+  <meta name="description" content="Shogo Matsushita&#39;s portfolio" />
+  <title>Shogo Matsushita Portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Yesteryear" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
+  <link href="css/reset.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/photoswipe/photoswipe.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/photoswipe/default-skin/default-skin.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="img/favicon.ico" />
+</head>
+
+<body>
+  <div id="wrapper">
+    <header id="header">
+      <h1 class="logo">
+        <span class="logo-title">PORTFOLIO</span>
+        <span class="logo-desc">Shogo Matsushita</span>
+      </h1>
+    </header>
+    <nav id="gnav">
+      <ul>
+        <li><a href="index.html#latestworks">LATEST WORKS</a></li>
+        <li><a href="index.html#works">WORKS</a></li>
+        <li><a href="index.html#about">ABOUT</a></li>
+        <li><a href="index.html#skill">SKILL</a></li>
+        <li><a href="index.html#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+    <main id="contents">
+        <div class="two-column-wrapper">
+          <div class="two-column-image">
+            <video src="video/works/preset.mp4" controls></video>
+          </div>
+          <div class="two-column-desc">
+            <p class="text">
+              プリセットされた色でペンライトの色を変化させるPreset Modeです．<br>
+              ボタンを押すごとにピンク→緑→水色→黄色→オレンジ→赤→青→ピンク→…と色が変化します．
+            </p>
+          </div>
+        </div>
+
+        <div class="two-column-wrapper">
+          <div class="two-column-image">
+            <video src="video/works/gradation.mp4" controls></video>
+          </div>
+          <div class="two-column-desc">
+            <p class="text">
+              つまみを回すことでペンライトの色を滑らかに変化させるGradaton Modeです．<br>
+              つまみは可変抵抗となっていて，変化した電流の値をA/Dコンバータで読み取ることで滑らかな変化を実現しています．<br>
+              このモードの時は好きな色を記憶することができます．
+            </p>
+          </div>
+        </div>
+
+        <div class="two-column-wrapper">
+          <div class="two-column-image">
+            <video src="video/works/memorize.mp4" controls></video>
+          </div>
+          <div class="two-column-desc">
+            <p class="text">
+              Gradation Modeで記憶した色でペンライトの色を変化させるMemory Modeです．<br>
+              最大10色まで記憶可能で，10色を超えた場合は古いものから上書きされていきます．<br>
+              このモードでボタンを長押しすると記憶した色を全てリセットします．
+            </p>
+          </div>
+        </div>
+
+        <div class="two-column-wrapper">
+          <div class="two-column-image">
+            <video src="video/works/auto_gradation.mp4" controls></video>
+          </div>
+          <div class="two-column-desc">
+            <p class="text">
+              Gradation Modeでボタンを長押しすると自動的に色が変化します．<br>
+              もう一度長押しすることで通常のGradation Modeに戻ることができます．<br>
+              このモードでも色を記憶することができます．
+            </p>
+          </div>
+        </div>
+
+        <div class="two-column-wrapper">
+          <div class="two-column-image">
+            <video src="video/works/intensity.mp4" controls></video>
+          </div>
+          <div class="two-column-desc">
+            <p class="text">
+              Preset Modeでボタンを長押しすると光の強さをつまみを回すことで変えることができます．<br>
+              もう一度長押しすることで通常のPreset Modeに戻ることができます．<br>
+              また，光の強さは他のモードに切り替わっても保持されます．<br>．
+            </p>
+          </div>
+        </div>
+    </main>
+    <footer id="footer">
+      <div class="inner">
+        <nav class="footer-link">
+          <ul>
+            <li><a href="index.html#latestworks">LATEST WORKS</a></li>
+            <li><a href="index.html#works">WORKS</a></li>
+            <li><a href="index.html#about">ABOUT</a></li>
+            <li><a href="index.html#skill">SKILL</a></li>
+            <li><a href="index.html#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+        <p class="copyright">Copyright&copy;Sho Satoh. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </div>
+
+
+  <!-- Root element of PhotoSwipe. Must have class pswp. -->
+  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe.
+           It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+      <!-- Container that holds slides.
+              PhotoSwipe keeps only 3 of them in the DOM to save memory.
+              Don't modify these 3 pswp__item elements, data is added later on. -->
+      <div class="pswp__container">
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+      </div>
+
+      <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+      <div class="pswp__ui pswp__ui--hidden">
+
+        <div class="pswp__top-bar">
+
+          <!--  Controls are self-explanatory. Order can be changed. -->
+
+          <div class="pswp__counter"></div>
+
+          <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+
+
+          <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+          <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+          <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+          <!-- element will get class pswp__preloader--active when preloader is running -->
+          <div class="pswp__preloader">
+            <div class="pswp__preloader__icn">
+              <div class="pswp__preloader__cut">
+                <div class="pswp__preloader__donut"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+          <div class="pswp__share-tooltip"></div>
+        </div>
+
+        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+              </button>
+
+        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+              </button>
+
+        <div class="pswp__caption">
+          <div class="pswp__caption__center"></div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe.min.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe-ui-default.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe_setup.js"></script>
+  <script type='text/javascript' src="js/script.js"></script>
+</body>
+</html>
