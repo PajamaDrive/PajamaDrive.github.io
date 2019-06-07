@@ -33,7 +33,6 @@ a:hover, a:hover img {
 
 img, video, object {
   max-width: 100%;
-  height: auto;
   border: none;
   vertical-align: bottom;
   display: block;
@@ -239,10 +238,6 @@ ul, li {
 #works .card-image {
   display: block;
   margin-bottom: 8px;
-}
-
-#works .card-caption-title {
-  vertical-align: top;
 }
 
 #works .card-caption-title {
