@@ -36,6 +36,7 @@ img, video, object {
   border: none;
   vertical-align: bottom;
   display: block;
+  object-fit: contain;
 }
 
 ul, li {
