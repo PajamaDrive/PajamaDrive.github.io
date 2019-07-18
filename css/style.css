@@ -39,6 +39,14 @@ img, object {
   display: block;
 }
 
+video {
+  max-width: 100%;
+  height: auto;
+  border: none;
+  vertical-align: bottom;
+  display: block;
+}
+
 ul, li {
   list-style: none;
 }
@@ -227,6 +235,10 @@ ul, li {
 /*--------------------------------
 　WORKS
 ---------------------------------*/
+#works .hoge video {
+  height: 348px;
+  object-fit: contain;
+}
 
 #works .card {
   width: 32%;
